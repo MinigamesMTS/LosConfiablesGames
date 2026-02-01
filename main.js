@@ -59,4 +59,31 @@ fetch("juegos.json")
       });
     }
 });
+const params = new URLSearchParams(window.location.search);
+const id = params.get("id");
+
+fetch("juegos.json")
+  .then(res => res.json())
+  .then(data => {
+    const juego = data[id];
+
+    document.getElementById("titulo").textContent = juego.titulo;
+    document.getElementById("imagen").src = juego.imagen;
+    document.getElementById("descripcion").textContent = juego.descripcion;
+    document.getElementById("trailer").src = juego.trailer;
+
+    const linksDiv = document.getElementById("links");
+    let linksHTML = "";
+
+    juego.links.forEach(link => {
+      linksHTML += `
+        <a class="link-descarga ${link.clase}" href="${link.url}" target="_blank">
+          ${link.nombre}
+        </a>
+      `;
+    });
+
+    linksDiv.innerHTML = linksHTML;
+  });
+
 
