@@ -1,8 +1,8 @@
 {
   "portal": {
     "titulo": "Portal",
-    "imagen": "https://i.imgur.com/8zQZQZK.jpg",
-    "descripcion": "Portal es un juego de puzzles en primera persona.",
+    "imagen": "https://media.senscritique.com/media/000009752284/source_big/Portal.png",
+    "descripcion": "Procesador a 1.7 GHz, 512 MB de RAM, gráfica compatible con DirectX® 8.1 (requiere compatibilidad con SSE), Windows® 7 (32 y 64 bits) / Vista / XP, ratón, teclado, conexión a Internet",
     "trailer": "https://www.youtube.com/embed/TluRVBhmf8w",
     "links": [
       { "nombre": "Mega", "url": "#" },
@@ -19,4 +19,5 @@
     ]
   }
 }
+
 
