@@ -11,6 +11,7 @@ h1, h2 {
   color: #00aaff;
 }
 
+/* ====== LISTA DE JUEGOS (index.html) ====== */
 #lista-juegos {
   display: flex;
   justify-content: center;
@@ -30,6 +31,7 @@ h1, h2 {
   border-radius: 5px;
 }
 
+/* ====== LINKS GENERALES ====== */
 a {
   color: #00aaff;
   text-decoration: none;
@@ -39,30 +41,49 @@ a:hover {
   text-decoration: underline;
 }
 
+/* ====== IMAGEN DEL JUEGO ====== */
 img#imagen {
   width: 300px;
   border-radius: 10px;
   margin: 10px 0;
 }
 
+/* ====== DESCARGAS ====== */
 .descargas {
-  margin-top: 20px;
+  margin-top: 30px;
   display: flex;
-  gap: 20px; /* separación entre Mega y MediaFire */
+  gap: 30px;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
+/* BOTONES DE DESCARGA */
 .link-descarga {
-  background: #007bff; /* azul */
-  color: white;
-  padding: 12px 24px;
-  text-decoration: none;
+  font-size: 22px;
+  padding: 16px 36px;
   font-weight: bold;
-  border-radius: 8px;
-  transition: 0.3s;
+  color: white !important;
+  text-decoration: none;
+  border-radius: 12px;
+  display: inline-block;
+  transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
+/* EFECTO HOVER */
 .link-descarga:hover {
-  background: #0056b3;
-  transform: scale(1.05);
+  transform: scale(1.1);
+  opacity: 0.9;
+}
+
+/* ====== COLORES POR SERVIDOR ====== */
+.link-descarga.mega {
+  background-color: #d90000;
+}
+
+.link-descarga.mediafire {
+  background-color: #0066ff;
+}
+
+.link-descarga.drive {
+  background-color: #0f9d58;
 }
