@@ -3,14 +3,25 @@ body {
   color: white;
   font-family: Arial, sans-serif;
   text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #00aaff;
+}
+
+#lista-juegos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .card {
   background: #222;
+  border-radius: 8px;
   padding: 10px;
   margin: 10px;
-  display: inline-block;
-  border-radius: 8px;
   width: 180px;
 }
 
@@ -22,4 +33,14 @@ body {
 a {
   color: #00aaff;
   text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img#imagen {
+  width: 300px;
+  border-radius: 10px;
+  margin: 10px 0;
 }
