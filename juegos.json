@@ -5,8 +5,8 @@
     "descripcion": "Tamaño de instalación: 1792 MB (1.7 GB)",
     "trailer": "https://www.youtube.com/embed/TluRVBhmf8w",
     "links": [
-      { "nombre": "Mega", "url": "#", "clase": "mega" },
-      { "nombre": "MediaFire", "url": "#", "clase": "mediafire" }
+      { "nombre": "Mega", "url": "https://mega.nz/file/sNdmmYIb#NsutM8idVQ_z-4nbMZur1byAO0d7GLmyGbR7zYaHLHg", "clase": "mega" },
+      { "nombre": "MediaFire", "url": "https://www.mediafire.com/file/qnjk1bhnrah723w/Portal1_-_LosConfiablesGames.rar/file", "clase": "mediafire" }
     ]
   },
 
@@ -20,6 +20,7 @@
     ]
   }
 }
+
 
 
 
