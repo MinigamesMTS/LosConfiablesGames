@@ -1,23 +1,24 @@
 fetch("juegos.json")
-  .then(res => res.json())
+  .then(response => response.json())
   .then(juegos => {
 
+    // ----- INDEX -----
     const lista = document.getElementById("lista-juegos");
 
     if (lista) {
       for (let id in juegos) {
-        const juego = juegos[id];
-
+        const j = juegos[id];
         lista.innerHTML += `
           <div class="card">
-            <img src="${juego.imagen}">
-            <h3>${juego.titulo}</h3>
+            <img src="${j.imagen}">
+            <h3>${j.titulo}</h3>
             <a href="juego.html?id=${id}">Ver juego</a>
           </div>
         `;
       }
     }
 
+    // ----- JUEGO -----
     const params = new URLSearchParams(window.location.search);
     const id = params.get("id");
 
@@ -34,4 +35,10 @@ fetch("juegos.json")
         `;
       });
     }
-});
+
+  })
+  .catch(error => {
+    console.error("Error cargando juegos.json:", error);
+  });
+
+
