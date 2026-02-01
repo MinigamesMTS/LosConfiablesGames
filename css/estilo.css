@@ -44,3 +44,25 @@ img#imagen {
   border-radius: 10px;
   margin: 10px 0;
 }
+
+.descargas {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px; /* separación entre Mega y MediaFire */
+  justify-content: center;
+}
+
+.link-descarga {
+  background: #007bff; /* azul */
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.link-descarga:hover {
+  background: #0056b3;
+  transform: scale(1.05);
+}
