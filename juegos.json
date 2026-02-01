@@ -2,23 +2,25 @@
   "portal": {
     "titulo": "Portal",
     "imagen": "https://media.senscritique.com/media/000009752284/source_big/Portal.png",
-    "descripcion": "Tamaño de instalacion 1792MB = 1.7GB", 
+    "descripcion": "Tamaño de instalación: 1792 MB (1.7 GB)",
     "trailer": "https://www.youtube.com/embed/TluRVBhmf8w",
     "links": [
-      { "nombre": "Mega", "url": "#" },
-      { "nombre": "MediaFire", "url": "#" }
+      { "nombre": "Mega", "url": "#", "clase": "mega" },
+      { "nombre": "MediaFire", "url": "#", "clase": "mediafire" }
     ]
   },
+
   "terraria": {
     "titulo": "Terraria",
     "imagen": "https://i.imgur.com/0XKznQH.jpg",
     "descripcion": "Terraria es un juego de aventura y supervivencia en 2D.",
     "trailer": "https://www.youtube.com/embed/w7uOhFTrrq0",
     "links": [
-      { "nombre": "Google Drive", "url": "#" }
+      { "nombre": "Google Drive", "url": "#", "clase": "drive" }
     ]
   }
 }
+
 
 
 
