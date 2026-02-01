@@ -2,7 +2,7 @@
   "portal": {
     "titulo": "Portal",
     "imagen": "https://i.imgur.com/8zQZQZK.jpg",
-    "descripcion": "Juego de puzzles en primera persona.",
+    "descripcion": "Portal es un juego de puzzles en primera persona.",
     "trailer": "https://www.youtube.com/embed/TluRVBhmf8w",
     "links": [
       { "nombre": "Mega", "url": "#" },
@@ -12,10 +12,10 @@
   "terraria": {
     "titulo": "Terraria",
     "imagen": "https://i.imgur.com/0XKznQH.jpg",
-    "descripcion": "Aventura 2D.",
+    "descripcion": "Terraria es un juego de aventura y supervivencia en 2D.",
     "trailer": "https://www.youtube.com/embed/w7uOhFTrrq0",
     "links": [
-      { "nombre": "Drive", "url": "#" }
+      { "nombre": "Google Drive", "url": "#" }
     ]
   }
 }
