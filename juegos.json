@@ -12,14 +12,14 @@
 
   "terraria": {
     "titulo": "Terraria",
-    "imagen": "https://i.imgur.com/0XKznQH.jpg",
-    "descripcion": "Terraria es un juego de aventura y supervivencia en 2D.",
+    "imagen": "https://origin.enormousexplosive.com/a/uploads/scale_small/8/87790/2994875-box_terr.png",
+    "descripcion": "Tamaño de instalacion: 590MB",
     "trailer": "https://www.youtube.com/embed/w7uOhFTrrq0",
     "links": [
-      { "nombre": "Google Drive", "url": "#", "clase": "drive" }
+      { "nombre": "Mega", "url": "https://mega.nz/file/BY8R0IDI#5qbKOohCyXxqGKZxQkWH1dV5zrjxi4KOoL6tswNWefE", "clase": "mega" },
+      { "nombre": "MediaFire", "url": "https://www.mediafire.com/file/m0mt18xa047cgd3/Terraria_-_LosConfiablesGames.rar/file", "clase": "mediafire" }
     ]
-  }
-}
+  },
 
 
 
